@@ -6,7 +6,7 @@ public class Parametert : MonoBehaviour
     [SerializeField]
     private float parameterFactor = 0.01f;
     private float offset = 0f;
-    [SerializeField]
+    //[SerializeField]
    // private float gamespeed = 5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

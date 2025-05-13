@@ -14,6 +14,8 @@ public class AudioManager : MonoBehaviour
     private AudioClip hurtClip;
     [SerializeField]
     private AudioClip giftClip;
+    [SerializeField]
+    private AudioClip fireClip;
     private bool hasPlaySource = false;
 
 
@@ -60,6 +62,10 @@ public class AudioManager : MonoBehaviour
     {
         effectAudioSource.PlayOneShot(giftClip);
 
+    }
+    public void PlayFireSound()
+    {
+        effectAudioSource.PlayOneShot(fireClip);
     }
     // Update is called once per frame
     void Update()
